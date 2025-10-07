@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Real Shrine</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    header {
+      background: url('front-view.jpg') no-repeat center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      background-color: rgba(0, 0, 0, 0.6);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #222;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Casa Real Shrine</h1>
+  </header>
+  <main>
+    <section>
+      <h2>About Casa Real Shrine</h2>
+      <p>
+        The Casa Real Shrine, located in Malolos, Bulacan, is a historic landmark that once served as the office of the gobernadorcillo during the Spanish era. It also became an important government building during the First Philippine Republic.
+      </p>
+    </section>
+
+    <section>
+      <h2>Exterior View</h2>
+      <img src="front-view.jpg" alt="Casa Real Shrine Front View">
+    </section>
+
+    <section>
+      <h2>Interior</h2>
+      <img src="interior.jpg" alt="Casa Real Shrine Interior">
+    </section>
+
+    <section>
+      <h2>Museum Hall</h2>
+      <img src="museum-hall.jpg" alt="Casa Real Shrine Museum Hall">
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Casa Real Shrine Virtual Tour</p>
+  </footer>
+</body>
+</html>
